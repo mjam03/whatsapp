@@ -6,9 +6,11 @@ dependencies:
   - python
   - autopep8
   - category_encoders
+  - emoji
   - jupyter
   - jupyterlab
   - matplotlib
+  - nltk
   - numpy
   - pandas
   - pip
@@ -19,6 +21,8 @@ dependencies:
   - seaborn
   - setuptools
   - statsmodels
+  - textblob
   - xlrd
   - pip:
     - lxml
+    - profanity-check
